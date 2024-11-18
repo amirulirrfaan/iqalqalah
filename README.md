@@ -1,16 +1,25 @@
-# iqalqalah
+# IqAlqalah
 
-A new Flutter project.
+IqAlqalah is a Flutter-based educational application designed to teach and reinforce the rules of Tajweed, the art of reciting the Quran correctly. This application provides interactive quizzes, engaging notes, and gamified learning to make understanding Tajweed concepts enjoyable and effective for learners of all ages.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Tajweed Notes**  
+  Comprehensive notes on Tajweed concepts, such as Ikhfa, Idghaam, and Madd, presented in a simple and visually appealing format.
 
-A few resources to get you started if this is your first Flutter project:
+- **Interactive Quizzes**  
+  Test your knowledge with engaging quizzes. Questions include multiple-choice options with immediate feedback to reinforce learning.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Gamified Learning**  
+  Earn points, compete on the leaderboard, and track your progress as you master the rules of Tajweed.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **User Customization**  
+  Personalize your experience by selecting a cartoon character for your profile picture and setting up your profile.
+
+- **Educational Focus**  
+  Designed specifically for kids and beginners to provide a fun yet informative introduction to Tajweed.
+
+## Tech Stack
+
+- **Flutter**: For building the cross-platform mobile application.
+- **Firebase**: For backend services, including Firestore for database management.
