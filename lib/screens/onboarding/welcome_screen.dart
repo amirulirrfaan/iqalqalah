@@ -47,13 +47,11 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                // Image on the left side of the text
                 Image.asset(
-                  'assets/images/quran.png', // Replace with the correct path to your image
-                  height: 50, // Adjust the height as needed
+                  'assets/images/quran.png',
+                  height: 50,
                 ),
-                const SizedBox(
-                    width: 10), // Add some space between the image and text
+                const SizedBox(width: 10),
                 Text(
                   'iQalqalah',
                   style: Theme.of(context).textTheme.headlineLarge?.copyWith(

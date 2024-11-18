@@ -36,10 +36,9 @@ class _DashboardScreenState extends State<DashboardScreen> {
                 color: Colors.white,
               ),
         ),
-        backgroundColor: Theme.of(context).colorScheme.primary, // Theme color
+        backgroundColor: Theme.of(context).colorScheme.primary,
         centerTitle: true,
         actions: [
-          // Top-right tap detection
           IconButton(
             icon: Icon(Icons.settings),
             onPressed: () {
@@ -58,8 +57,8 @@ class _DashboardScreenState extends State<DashboardScreen> {
             children: [
               CircleAvatar(
                 radius: 30,
-                backgroundImage: AssetImage(
-                    'assets/images/${widget.avatarImage}'), // Display selected avatar
+                backgroundImage:
+                    AssetImage('assets/images/${widget.avatarImage}'),
               ),
               const SizedBox(width: 10),
               Column(
@@ -117,7 +116,6 @@ class _DashboardScreenState extends State<DashboardScreen> {
                   'assets/images/trophy.png',
                   const LeaderboardScreen(),
                 ),
-                // Only show these items if the user has tapped 4 times
                 if (_tapCount >= 4) ...[
                   _buildMenuItem(
                     context,

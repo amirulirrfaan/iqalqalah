@@ -24,7 +24,6 @@ class _CharacterSelectionScreenState extends State<CharacterSelectionScreen> {
       selectedCharacter = character;
     });
 
-    // Navigate directly to the Dashboard screen after selecting a character
     Navigator.pushReplacement(
       context,
       MaterialPageRoute(
@@ -46,7 +45,7 @@ class _CharacterSelectionScreenState extends State<CharacterSelectionScreen> {
       'magician.png',
       'muslim.png',
       'arab-woman.png'
-    ]; // Add image paths for character avatars
+    ];
 
     return Scaffold(
       appBar: AppBar(
@@ -63,7 +62,7 @@ class _CharacterSelectionScreenState extends State<CharacterSelectionScreen> {
             Expanded(
               child: GridView.builder(
                 gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                  crossAxisCount: 2, // Reduced columns for larger cards
+                  crossAxisCount: 2,
                   mainAxisSpacing: 20,
                   crossAxisSpacing: 20,
                 ),

@@ -12,7 +12,6 @@ class NotesScreen extends StatefulWidget {
 class _NotesScreenState extends State<NotesScreen> {
   final TextEditingController _searchController = TextEditingController();
 
-  // This will hold the filtered notes
   List<Map<String, String>> filteredNotes = [];
 
   @override
@@ -23,9 +22,7 @@ class _NotesScreenState extends State<NotesScreen> {
 
   void _filterNotes() {
     final query = _searchController.text.toLowerCase();
-    setState(() {
-      // You will implement filtering based on fetched data later
-    });
+    setState(() {});
   }
 
   @override
