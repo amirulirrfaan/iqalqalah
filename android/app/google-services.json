@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "680295500804",
+    "project_id": "iqalqalah",
+    "storage_bucket": "iqalqalah.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680295500804:android:9e30f01c47380b9bbfb951",
+        "android_client_info": {
+          "package_name": "com.example.iqalqalah"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVAfIV9v3niGo8bqcDqQbNc8MxXZgmId8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
